@@ -1,0 +1,18 @@
+#mainBox
+  {
+    width:250px;
+    height: 100px;
+    margin-left:250px;
+    margin-top: 100px;
+    overflow: scroll;
+  }
+#movieList , #bikeList , #colorList , #drinkList
+  {
+    display: none;
+    list-style-type: none;
+  }
+#outerList
+  {
+    list-style-type: none;
+    margin-top: 0px;
+  }

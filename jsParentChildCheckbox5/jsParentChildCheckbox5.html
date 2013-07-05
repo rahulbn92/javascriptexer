@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <link rel="stylesheet" type="text/css" href="jsParentChildCheckbox5.css">
+    <script type="text/javascript" src="jsParentChildCheckbox5.js"></script>
+  </head>
+  <body>
+    <div id="mainBox">
+      <ul id="outerList">
+        <li><input id="colorParent" type="checkbox" onclick="clickParentDisplayChild('colorList')">
+        <label for="colorParent">color</label></input> 
+          <ul id="colorList">
+            <li><input id="redColor" type="checkbox"><label for ="redColor">red</label></input></li>
+            <li><input id="blueColor" type="checkbox"><label for ="blueColor">blue</label></input> </li>
+            <li><input id="blackColor" type="checkbox"><label for ="blackColor">black</label></input> </li>
+            <li><input id="greenColor" type="checkbox"><label for ="greenColor">green</label></input> </li>
+          </ul>
+        </li>
+
+        <li><input id="drinkParent" type="checkbox" onclick="clickParentDisplayChild('drinkList')">
+        <label for="drinkParent">drinks</label></input>
+          <ul id="drinkList">
+            <li><input id="pepsiDrink" type="checkbox"><label for ="pepsiDrink">pepsi</label></input> </li>
+            <li><input id="dewDrink" type="checkbox"><label for ="dewDrink">dew</label></input> </li>
+            <li><input id="cocacolaDrink" type="checkbox"><label for ="cocacolaDrink">cocacola</label></input> </li>
+          </ul>
+        </li>
+
+        <li><input id="bikeParent" type="checkbox" onclick="clickParentDisplayChild('bikeList')">
+        <label for="bikeParent">bike </label></input>
+          <ul id="bikeList">
+            <li><input id="v-rodBike" type="checkbox"><label for="v-rodBike">ev-rod</label></input> </li>
+            <li><input id="pulsarBike" type="checkbox"><label for="pulsarBike">pulsar</label></input> </li>
+            <li><input id="cbzBike" type="checkbox"><label for="cbzBike">cbz</label></input> </li>
+          </ul>
+        </li>
+
+        <li><input id="movieParent" type="checkbox" onclick="clickParentDisplayChild('movieList')">
+        <label for="movieParent">movie</label></input>
+          <ul id="movieList">
+            <li><input id="sirMovie" type="checkbox"><label for="sirMovie">sir</label></input> </li>
+            <li><input id="darMovie" type="checkbox"><label for="darMovie">dar</label></input> </li>
+          </ul>
+        </li>
+      </ul>  
+    </div>
+  </body>
+</html>
